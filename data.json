@@ -1,0 +1,49 @@
+{
+    "projects" : [
+        {
+            "id":0,
+            "project_name": "project name",
+            "description" : "project description",
+            "technologies" : "technologies",
+            "live_link" : "link to GitHub Live Page",
+            "github_link" : "Link to GitHub repo",
+            "image_urls" : "An array of strings containing image URLS"
+        },
+        {
+            "id":1,
+            "project_name": "project name",
+            "description" : "project description",
+            "technologies" : "technologies",
+            "live_link" : "link to GitHub Live Page",
+            "github_link" : "Link to GitHub repo",
+            "image_urls" : "An array of strings containing image URLS"
+        },
+        {
+            "id":2,
+            "project_name": "project name",
+            "description" : "project description",
+            "technologies" : "technologies",
+            "live_link" : "link to GitHub Live Page",
+            "github_link" : "Link to GitHub repo",
+            "image_urls" : "An array of strings containing image URLS"
+        },
+        {
+            "id":3,
+            "project_name": "project name",
+            "description" : "project description",
+            "technologies" : "technologies",
+            "live_link" : "link to GitHub Live Page",
+            "github_link" : "Link to GitHub repo",
+            "image_urls" : "An array of strings containing image URLS"
+        },
+        {
+            "id":4,
+            "project_name": "project name",
+            "description" : "project description",
+            "technologies" : "technologies",
+            "live_link" : "link to GitHub Live Page",
+            "github_link" : "Link to GitHub repo",
+            "image_urls" : "An array of strings containing image URLS"
+        }
+    ]
+}
