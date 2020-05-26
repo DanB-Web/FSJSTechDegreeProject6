@@ -1,0 +1,23 @@
+{
+  "name": "fsjstechdegreeproject6",
+  "version": "1.0.0",
+  "description": "Full Stack JS Portfolio Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanB-Web/FSJSTechDegreeProject6.git"
+  },
+  "author": "Dan Bayford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanB-Web/FSJSTechDegreeProject6/issues"
+  },
+  "homepage": "https://github.com/DanB-Web/FSJSTechDegreeProject6#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}
