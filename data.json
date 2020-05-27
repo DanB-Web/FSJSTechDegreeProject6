@@ -1,22 +1,13 @@
 {
     "projects" : [
         {
-            "id":0,
-            "project_name": "project name",
-            "description" : "project description",
-            "technologies" : "technologies",
-            "live_link" : "link to GitHub Live Page",
-            "github_link" : "Link to GitHub repo",
-            "image_urls" : "An array of strings containing image URLS"
-        },
-        {
             "id":1,
-            "project_name": "project name",
-            "description" : "project description",
-            "technologies" : "technologies",
+            "project_name": "Random Quote Generator",
+            "description" : "Application scrolls through a random array of motivational quotes",
+            "technologies" : ["HTML", "CSS", "JavaScript", "Test Tech"],
             "live_link" : "link to GitHub Live Page",
             "github_link" : "Link to GitHub repo",
-            "image_urls" : "An array of strings containing image URLS"
+            "image_urls" : ["/images/Project1Homepage.png", "/images/Project1View1.png", "/images/Project1View2.png"]
         },
         {
             "id":2,
@@ -38,6 +29,15 @@
         },
         {
             "id":4,
+            "project_name": "project name",
+            "description" : "project description",
+            "technologies" : "technologies",
+            "live_link" : "link to GitHub Live Page",
+            "github_link" : "Link to GitHub repo",
+            "image_urls" : "An array of strings containing image URLS"
+        },
+        {
+            "id":5,
             "project_name": "project name",
             "description" : "project description",
             "technologies" : "technologies",

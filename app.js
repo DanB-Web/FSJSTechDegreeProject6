@@ -29,7 +29,7 @@ app.get('/projects/:id', function(req, res, next) {
     const project = projects.find( ({ id }) => id === +projectId );
     console.log(`route Project ${projectId} GET`);
     if (project) {
-      res.render('project', { projects });
+      res.render('project', { project }); //Changed to project from projects
     } else {
       res.sendStatus(404);
     }
