@@ -2,7 +2,7 @@
     "projects" : [
         {
             "id":1,
-            "project_name": "A Random Quote Generator",
+            "project_name": "Random Quote Generator",
             "description" : "Application scrolls through a random array of motivational quotes, either on a timer or when the user presses a button",
             "technologies" : ["HTML", "CSS", "JavaScript"],
             "live_link" : "link to GitHub Live Page",
@@ -11,7 +11,7 @@
         },
         {
             "id":2,
-            "project_name": "List Pagination and Filtering",
+            "project_name": "Pagination and Filtering",
             "description" : "Application seperates a long list of users into seperate pages with dynamic page numbering, and adds search functionality",
             "technologies" : ["HTML", "CSS", "JavaScript"],
             "live_link" : "link to GitHub Live Page",
@@ -40,7 +40,7 @@
             "id":5,
             "project_name": "Public API Requests",
             "description" : "Using an open API to populate an employee search directory for a fictional start up. The application includes a dynamic search function and modal pop ups.",
-            "technologies" : ["HTML", "CSS", "JavaScript"],
+            "technologies" : ["HTML", "CSS", "JavaScript", "APIs"],
             "live_link" : "link to GitHub Live Page",
             "github_link" : "https://github.com/DanB-Web/FSJSTechDegreeProject5",
             "image_urls" : ["/images/Project5Homepage.png", "/images/Project5View1.png", "/images/Project5View2.png"]
