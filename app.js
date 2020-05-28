@@ -2,6 +2,8 @@
 
 //Load dependencies
 const express = require("express");
+
+//Load data from JSON file
 const { projects } = require("./data.json");
 
 //Instantiate instance of Express
@@ -21,7 +23,7 @@ app.get('/', (req, res, next) => {
       console.log("index GET")
 });
 
-//About Page Route
+//About Page Route - prob doesn't need projects obj
 app.get('/about', (req, res, next) => {   
     res.render('about', { projects });  
     console.log("route GET")
@@ -41,10 +43,19 @@ app.get('/projects/:id', function(req, res, next) {
   });
 
 /******************************Error Handling*********************************/
-app.use(function (req, res, next) {
-    res.status(404).render('nope');
-    console.log("This page doesn't exist ya wally!");
-  })
+//Create new Error object and pass to next Middleware function
+app.use((req, res, next) => {
+    const err = new Error('Not Found');
+    err.status = 404;
+    next(err);
+  });
+
+//Process new Error object and render 'error' page
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.status(err.status);
+    res.render('error', { err });
+  });
 
 /**************************Local Dev Server Port 3000************************/ 
 app.listen(3000, () => {

@@ -1,0 +1,14 @@
+extends layout.pug
+
+block content 
+  article.grid-container.portfolio-intro
+    div      
+      h1 Uh oh...! 😬
+        div
+          p
+          p= `Error Message: ${err.message}`        
+          p= `Error Status: ${err.status}`
+          p= `Error Stack: ${err.stack}`
+          a(href='/') 
+            h6 Click here to go home!
+      
