@@ -22,7 +22,7 @@
             "id":3,
             "project_name": "Interactive Form",
             "description" : "Use of regular expressions to validate a form before submission. Use of jQuery to add extra functionality such as only displaying certain t-shirt colors for certain designs, checking for schedule clashes in the 'Activities' field and keeping a running total of costs.",
-            "technologies" : ["HTML", "CSS", "JavaScript", "jQuery"],
+            "technologies" : ["HTML", "CSS", "JavaScript", "jQuery", "Regex"],
             "live_link" : "https://danb-web.github.io/FSJSTechdegreeProject3",
             "github_link" : "https://github.com/DanB-Web/FSJSTechdegreeProject3",
             "image_urls" : ["/images/Project3Homepage.png", "/images/Project3View1.png", "/images/Project3View2.png"]
@@ -39,7 +39,7 @@
         {
             "id":5,
             "project_name": "Public API Requests",
-            "description" : "Using an open API to populate an employee search directory for a fictional start up. The application includes a dynamic search function and modal pop ups.",
+            "description" : "Using an open API to populate an employee search directory for a fictional start up. Use of asynchronous JavaScript. The application includes a dynamic search function and modal pop ups.",
             "technologies" : ["HTML", "CSS", "JavaScript", "APIs"],
             "live_link" : "https://danb-web.github.io/FSJSTechDegreeProject5",
             "github_link" : "https://github.com/DanB-Web/FSJSTechDegreeProject5",

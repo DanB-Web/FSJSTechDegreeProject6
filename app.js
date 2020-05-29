@@ -2,6 +2,7 @@
 
 //Load dependencies
 const express = require("express");
+const chalk = require('chalk');
 
 //Load data from JSON file
 const { projects } = require("./data.json");
@@ -20,26 +21,33 @@ app.use(express.static('public'));
 //Home Page Route
 app.get('/', (req, res, next) => {   
       res.render('index', { projects });  
-      console.log("index GET")
+      console.log(chalk.green("index GET"));
 });
 
-//About Page Route - prob doesn't need projects obj
+//About Page Route
 app.get('/about', (req, res, next) => {   
-    res.render('about', { projects });  
-    console.log("route GET")
+    res.render('about');  
+    console.log(chalk.green("route GET"));
 });
 
 //Dynamic Project Page Routes
 /*Note the render method passes the project page the relevant project JSON (not the entire object) as 'project'*/
 app.get('/projects/:id', function(req, res, next) {
     const projectId = req.params.id;
+
+  if (projectId > 0 && projectId <= projects.length) {
     const project = projects.find( ({ id }) => id === +projectId );
-    console.log(`route Project ${projectId} GET`);
-    if (project) {
+
+      if (project) {
       res.render('project', { project });
-    } else {
+      console.log(chalk.green(`Project ${projectId} GET`));
+      } else {
       res.sendStatus(404);
-    }
+      }
+  }
+
+  else {next();}
+
   });
 
 /******************************Error Handling*********************************/
@@ -55,10 +63,11 @@ app.use((err, req, res, next) => {
     res.locals.error = err;
     res.status(err.status);
     res.render('error', { err });
+    console.log(chalk.red("ERROR on GET request"));
   });
 
 /**************************Local Dev Server Port 3000************************/ 
 app.listen(3000, () => {
-    console.log('The application is running on localhost:3000!')
+    console.log(chalk.bgGreen('The application is running on localhost:3000!'));
 });
 
