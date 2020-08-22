@@ -1,5 +1,5 @@
 # FSJSTechDegreeProject6
- Full Stack Portfolio Site with Node and Express
+ *Full Stack Portfolio Site with Node.js and Express*
 
 ## 1. Initialise the app and add depenencies
 
@@ -10,30 +10,27 @@
 
 ## 2. Data
 
-i) 	data.JSON file created
-ii)	5 objects containing the required properties
+  * data.JSON file created
+  * 5 objects containing the required properties
 
 ## 3. Routes
 
-i)	all requested routes working
-ii)	static route to serve static assets in public folder
+  * all requested routes working
+  * static route to serve static assets in public folder
 
 ## 4. Templates
 
-i)	requested Pug templates present and showing correct info
-
-ii)	error.pug template created
+  * requested Pug templates present and showing correct info
+  * error.pug template created
 
 ## 5. Errors
 
-i)	app logs red error message to terminal as necessary
-
-ii)	error page in the browser showing error message, status and stack trace
+  * app logs red error message to terminal as necessary
+  * error page in the browser showing error message, status and stack trace
 
 ## 6. Layout, CSS and Styles
 
-i)	Final project layout matches the example HTML
-
-ii)	Extra exceeds.css file containing custom markup
+  * Final project layout matches the example HTML
+  * Extra exceeds.css file containing custom markup
 
 
