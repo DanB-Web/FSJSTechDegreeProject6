@@ -3,11 +3,10 @@
 
 ## 1. Initialise the app and add depenencies
 
-i) 	.gitignore file created and node_modules folder not in repo
-ii) 	npm install downloads dependencies (Express, Pug, Chalk)
-iii) 	node app.js starts the server
-
-iv) 	start script added to package.JSON
+  * .gitignore file created and node_modules folder not in repo
+  * npm install downloads dependencies (Express, Pug, Chalk)  
+  * node app.js starts the server
+  * start script added to package.JSON
 
 ## 2. Data
 
