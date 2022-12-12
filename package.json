@@ -19,7 +19,7 @@
   "homepage": "https://github.com/DanB-Web/FSJSTechDegreeProject6#readme",
   "dependencies": {
     "chalk": "^4.0.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "pug": "^3.0.0"
   }
 }
